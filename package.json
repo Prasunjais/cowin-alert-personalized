@@ -68,5 +68,13 @@
     "mocha": "^6.2.2",
     "node-env-run": "^2.0.1",
     "nodemon": "^1.19.4"
+  },
+  "husky": {
+    "hooks": {
+      "applypatch-msg": "echo \"[Husky] applypatch-msg\" ",
+      "pre-applypatch": "echo \"[Husky] pre-applypatch\" ",
+      "post-applypatch": "echo \"[Husky] post-applypatch\" ",
+      "pre-commit": "echo \"[Husky] pre-commit\" "
+    }
   }
 }
